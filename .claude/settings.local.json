@@ -1,0 +1,40 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -s \"https://raw.githubusercontent.com/nextlevelbuilder/ui-ux-pro-max-skill/main/.claude/skills/ui-ux-pro-max/SKILL.md\" -o /tmp/SKILL.md)",
+      "Read(//tmp/**)",
+      "Bash(mkdir -p \"C:/Users/rajve/.claude/skills/ui-ux-pro-max\")",
+      "Bash(cp /tmp/SKILL.md \"C:/Users/rajve/.claude/skills/ui-ux-pro-max/SKILL.md\")",
+      "Bash(node -e \"import\\('./node_modules/react-icons/si/index.mjs'\\).then\\(si => { const names = Object.keys\\(si\\); console.log\\(names.filter\\(n => /csharp|css|sharp|sql/i.test\\(n\\)\\).join\\('\\\\n'\\)\\) }\\)\")",
+      "Bash(node -e \"import\\('./node_modules/react-icons/si/index.mjs'\\).then\\(si => { const names = Object.keys\\(si\\); console.log\\(names.filter\\(n => /dotnet|csharp|visualstudio|vscode/i.test\\(n\\)\\).join\\('\\\\n'\\)\\) }\\)\")",
+      "Bash(node -e \"import\\('./node_modules/react-icons/si/index.mjs'\\).then\\(si => { const names = Object.keys\\(si\\); console.log\\(names.filter\\(n => /visual|vscode|studio|postman/i.test\\(n\\)\\).join\\('\\\\n'\\)\\) }\\)\")",
+      "Bash(node -e \"import\\('./node_modules/react-icons/si/index.mjs'\\).then\\(si => { const names = Object.keys\\(si\\); console.log\\(names.filter\\(n => /^Sic/i.test\\(n\\) && n.length < 12\\).join\\('\\\\n'\\)\\) }\\)\")",
+      "WebSearch",
+      "WebFetch(domain:medium.com)",
+      "WebFetch(domain:www.luxisdesign.io)",
+      "WebFetch(domain:designshack.net)",
+      "WebFetch(domain:dev.to)",
+      "WebFetch(domain:colorlib.com)",
+      "Bash(npm run:*)",
+      "Bash(npm uninstall:*)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(mkdir -p ~/.claude/skills/frontend-design)",
+      "Bash(curl -fsSL \"https://raw.githubusercontent.com/anthropics/skills/main/skills/frontend-design/SKILL.md\" -o ~/.claude/skills/frontend-design/SKILL.md)",
+      "Bash(mkdir -p ~/.claude/skills/bencium-impact-designer)",
+      "Bash(curl -fsSL \"https://raw.githubusercontent.com/bencium/bencium-marketplace/main/bencium-impact-designer/skills/bencium-impact-designer/SKILL.md\" -o ~/.claude/skills/bencium-impact-designer/SKILL.md)",
+      "Read(//c/Users/rajve/.claude/skills/frontend-design/**)",
+      "Read(//c/Users/rajve/.claude/skills/bencium-impact-designer/**)",
+      "Bash(gh api:*)",
+      "WebFetch(domain:api.github.com)",
+      "Bash(npx shadcn@latest mcp init --client claude)",
+      "Skill(update-config)",
+      "Skill(update-config:*)",
+      "Bash(node -e \"const fs=require\\('fs'\\); const s=JSON.parse\\(fs.readFileSync\\('C:/Users/rajve/.claude/settings.json','utf8'\\)\\); console.log\\(s.hooks.PreToolUse[0].hooks[0].command\\)\")",
+      "Bash(npm install:*)",
+      "Bash(node -e \"const si = require\\('./node_modules/react-icons/si/index.cjs'\\); const keys = Object.keys\\(si\\); console.log\\(keys.filter\\(k => k.toLowerCase\\(\\).includes\\('csharp'\\) || k.toLowerCase\\(\\).includes\\('css'\\) || k.toLowerCase\\(\\).includes\\('dotnet'\\)\\).join\\('\\\\n'\\)\\)\")",
+      "Bash(curl -s http://localhost:5173)",
+      "WebFetch(domain:www.reactbits.dev)"
+    ]
+  }
+}

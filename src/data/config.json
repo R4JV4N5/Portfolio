@@ -1,0 +1,51 @@
+{
+  "personal": {
+    "name": "Dyanaraj Vanniyar",
+    "title": "Software Engineer",
+    "tagline": "Building scalable web applications and AI-powered systems.",
+    "location": "Mumbai, India",
+    "email": "rajvenniyar65@gmail.com",
+    "phone": "+91 7738828092",
+    "linkedin": "https://linkedin.com/in/rajvanniyar",
+    "github": "https://github.com/R4JV4N5",
+    "currentlyBuilding": "AI-powered report generation systems"
+  },
+  "about": {
+    "bio": "I'm a software engineer who thrives at the intersection of performance and intelligence. With hands-on experience building production systems using React, .NET, FastAPI, and AI-driven pipelines, I turn complex requirements into clean, scalable architecture. I care deeply about the quality of what I build — from the data layer up.",
+    "competencies": ["Adaptability", "Teamwork", "Problem Solving", "Collaboration"]
+  },
+  "skills": {
+    "programming": ["Python", "C#", "JavaScript", "SQL"],
+    "frontend": ["React", "HTML", "CSS"],
+    "backend": [".NET", "FastAPI", "Microservices"],
+    "database": ["MySQL", "Redis"]
+  },
+  "projects": [
+    {
+      "title": "Candidate Portal",
+      "description": "AI-powered resume parsing and intelligent dashboard for recruiters. Automated candidate data extraction with NLP pipelines.",
+      "tech": ["React", ".NET", "FastAPI"],
+      "number": "01"
+    },
+    {
+      "title": "Report AI",
+      "description": "Natural language to structured report generation system. Users describe what they need — the system delivers formatted, data-driven reports.",
+      "tech": ["React", "FastAPI"],
+      "number": "02"
+    }
+  ],
+  "experience": [
+    {
+      "role": "Software Engineer",
+      "company": "TeamLease Edtech",
+      "duration": "2024 — Present",
+      "description": "Building and maintaining full-stack web applications with React and .NET. Developing AI-powered features including report generation systems and candidate portals."
+    }
+  ],
+  "education": {
+    "college": "St. Francis Institute of Technology",
+    "degree": "B.E Information Technology",
+    "cgpa": "8.19",
+    "year": "2020 — 2024"
+  }
+}
